@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #21212b;
+    color: #dadadb;
+    font-family: open-sans,
+        Helvetica,
+        sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.8;
+    min-height: 100vh;
+
+}
+
+.lollipop {
+    width: 163px;
+    height: 400px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4.5em;
+    font-family: Yellowtail, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0.2em;
+    margin-bottom: .2em;
+}
+.title:hover{
+    color: rgb(231, 147, 147);
+}
+.subtitle {
+    font-size: 1em;
+    font-style: italic;
+    color: #ddd;
+    text-shadow: #fa73d9 1px 1px 4px;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    line-height: 1.2;
+}
+
+
+.title a {
+    font-weight: 300;
+    color: #fff;
+    border-bottom-style: none;
+    text-shadow: #fa73d9 0 0 8px;
+}
+
+a:link,
+a:visited {
+    color: #eee;
+    text-decoration: none;
+    border-bottom: 1px solid #f88cdd;
+}
+
+
+.createLolly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 3em;
+}
+.formcontent{
+    max-width: 400px;
+    
+}
+.btn{
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(20, 18, 18);
+    color: violet;
+    box-shadow: 0 0 5px violet;
+    border-bottom: none;
+}
+.btn:hover{
+    background-color: blueviolet;
+    
+}
+.createLolly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colorPicker {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.pickerLabel {
+    height: 50px;
+    width: 50px;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    display: block;
+    overflow: hidden;
+    margin: 30px;
+    box-shadow: 0 0 14px #000;
+}
+
+.setColor {
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    overflow: hidden;
+    margin-top: -8px;
+    margin-left: -8px;
+    cursor: pointer;
+}
+
+.details {
+    padding: 1em;
+    margin-bottom: 1.5em;
+    background-color: rgba(0, 0, 0, .2);
+    box-shadow: 0 0 20px rgba(199, 47, 47, 0.6);
+    text-align: left;
+    font-style: italic;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+
+input[type=text],
+textarea {
+    font-size: .9em;
+    width: 100%;
+    padding: .6em .3em;
+    margin: 0 -.2em;
+    border: 1px solid #fa73d9;
+    color: #fff;
+    background-color: #222;
+    box-shadow: 0 0 6px #fa73d9;
+}
+
+.info {
+ 
+    width: 400px;
+}
+
+.error {
+    color: #cc3434;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+pre {
+    cursor: pointer;
+    color: #fa73d9;
+    margin-top: .5em;
+    padding: .5em 1em;
+    border: 1px solid #000;
+    background-color: #000;
+    border-radius: 10px;
+}
+.link:hover{
+   color: rgb(219, 30, 30);
+}
+.bytheway {
+    font-size: .7em;
+    color: hsla(0, 0%, 100%, .6);
+}
+
+@media screen and (max-width: 730px) {
+    .createLolly {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .colorPicker {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .info {
+        margin-left: 0;
+        
+    }
+}
+.infoall {
+   
+    width: 550px;
+}
+@media screen and (max-width: 400px) {
+    body {
+        text-align: center;
+        background-color: #21212b;
+        color: #dadadb;
+        font-family: open-sans,
+            Helvetica,
+            sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.2;
+        min-height: 100vh;
+
+    }
+
+    .lollipop {
+        width: 163px;
+        height: 180px;
+    }
+
+    .info {
+        margin-left: 0;
+    }
+}
+.messagea{
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.from{
+    margin-left: 100px;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
